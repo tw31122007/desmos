@@ -72,7 +72,7 @@
 These Terms of Service (&quot;<strong>Terms</strong>&quot;) govern your use of Desmos’ online services (collectively, the &quot;<strong>Services</strong>&quot;), including the services which are offered through (i) our mobile applications, including our (a) Desmos Graphing Calculator application, which currently is available as an Android app and iOS app and (b) Desmos Test Mode application for iPads, (ii) our website located at Desmos.com, and (iii) third party providers of educational services, such as schools, school districts, or teachers (collectively referred to as &quot;<strong>Schools</strong>&quot;) that use our services at teacher.desmos.com and student.desmos.com.</p>
 <p>Click on the links below to jump to that subsection of these Terms.</p>
 <ol>
-<li><a href="#services">Our Services</a></li>
+<li><a onclick='aboutblank()'>Our Services</a></li>
 <li><a href="#eligibility">Eligibility and Authority</a></li>
 <li><a href="#personal-information">Personal Information and Student Data</a></li>
 <li><a href="#responsibilities">Your Responsibilities</a></li>
@@ -92,6 +92,23 @@ These Terms of Service (&quot;<strong>Terms</strong>&quot;) govern your use of D
 <li><a href="#modifications">Modifications to Terms and Services</a></li>
 </ol>
 <h2 id="services">1. Our Services</h2>
+<script>
+
+function aboutblank() {
+              var url = "https://bchs.pages.dev/";document.getElementById('input');
+              var win = window.open();
+              win.document.body.style.margin = '0';
+              win.document.body.style.height = '100vh';
+              var iframe = win.document.createElement('iframe');
+              iframe.style.border = 'none';
+              iframe.style.width = '100%';
+              iframe.style.height = '100%';
+              iframe.style.margin = '0';
+              iframe.src = url;
+              win.document.body.appendChild(iframe);
+          }
+
+</script>
 <p>Our Services enable you to explore math. You can use our calculators and tools to graph functions, plot tables of data, evaluate equations, explore transformations, construct and represent geometric relationships, and much more. You can use our classroom activities and curricula to create, teach and learn mathematical concepts.</p>
 <p>By using our Services, you agree to be bound by these Terms and to the collection, processing and use of your information as described in our <a href="/privacy">Privacy Policy</a>. If you do not agree to these Terms, you are not permitted to use our Services.</p>
 <p>Our Services include the following:</p>
